@@ -14,8 +14,8 @@
             <p class="place-time">Tổng tiền: {{ "{:,.2f}".format(ReceiptDetails.price) }} VND</p>
         </div>
         <div style="margin: 10px;">
-            <button type="submit" class="btn2" style="background-color: white; color: black;">
-                <a class="nav-link" href="{{ url_for('Done', room_id=ReceiptDetails.product_id) }}">Hoàn Thành</a>
+            <button type="submit" class="btn2" style="background-color: white;">
+                <a style="color: black" class="nav-link " href="{{ url_for('Done', room_id=ReceiptDetails.product_id) }}">Hoàn Thành</a>
             </button>
         </div>
 </div>

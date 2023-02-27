@@ -22,7 +22,7 @@
                      <h2 class="place-heading">{{ c.name }}</h2>
                      <p class="place-time">{{ "{:,.0f}".format(c.price) }} VND/đêm</p>
                      <p class="place-content">{{ c.description }}</p>
-                     <button class="btn btn-warning " href="/book-room"><a style="text-decoration:none; color:black" href="{{ url_for('BookingForm_detail',id = c.id) }}">Thanh Toán</a></button>
+                     <button class="btn btn-warning" ><a style="text-decoration:none; color:black" href="{{ url_for('BookingForm_detail',id = c.id) }}">Thanh Toán</a></button>
                  </div>
              </div>
         {% endfor %}

@@ -11,7 +11,7 @@
             <p class="place-time">Khách Hàng: {{ BookingForm.Customer_name1}}</p>
             <p class="place-time">Phòng Thuê: {{ BookingForm.Room_name}}</p>
             <button class="btn btn-warning js-place-buy-btn" style="text-decoration:none; color:black">
-               <a href="{{ url_for('BookingForm_detail', id=BookingForm.id) }}">Xuất Phiếu Thuê</a>
+               <a style="text-decoration:none; color:black" href="{{ url_for('BookingForm_detail', id=BookingForm.id) }}">Xuất Phiếu Thuê</a>
             </button>
         </div>
 </div>

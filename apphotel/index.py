@@ -196,7 +196,7 @@ def PayForm(room_id):
         Book = utils.get_bookingForm_by_Room_id(room_id)
         roo = utils.get_room_by_id(room_id)
         cre = utils.get_ReceiptDetails_by_id(room_id)
-        cre.price = float(roo.price)*float(day_number)
+        cre.price = float(roo.price)*float(day_number)+float(quantity)
         cre.quantity = float(quantity)
         db.session.commit()
         return render_template('Pay.html', ReceiptDetails=cre, Room=roo, BookingForm=Book)
