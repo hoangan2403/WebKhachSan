@@ -7,3 +7,6 @@ Cách sử dụng:
 5. Tạo database có tên "hotelappdb" và đổi mặt khẩu tron file init.py dòng thứ 16
 6. Chạy file models.py để khởi tạo CSDL.
 &. Chạy file index.py
+**Một số tài khoản: 
+Lễ Tân: TK: thuyen123   MK:123
+admin:  TK: an123       MK: 123
